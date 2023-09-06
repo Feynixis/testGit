@@ -1,0 +1,162 @@
+*   {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    padding-top: 200px;
+}
+
+.logo  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 103px;
+    height: 31px;
+    margin-top: 40px;
+
+}
+
+.sign-in-container  {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.login-box  {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 40px auto 15px auto;
+}
+
+.login-box h1 {
+    font-weight: 500;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.pass-line  {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+#help   {
+    margin-bottom: 5px;
+}
+
+.label-text {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+input   {
+    margin: 1px 10px 10px 10px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.continuebtn    {
+    margin: 10px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: rgb(253, 188, 67);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.continuebtn:hover  {
+    background-color: rgb(250, 168, 16);
+}
+
+
+.new-customer-box   {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+}
+
+.new-customer {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    margin: 2px auto 15px auto;
+}
+
+.amzn-lines:before   {
+    content:" ";
+    display: block;
+    height: 1px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: lightgray;
+}
+
+.amzn-lines:after   {
+    content:" ";
+    height: 1px;
+    width: 100px;
+    background: lightgray;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+.amzn-lines {
+    position: relative;
+    max-width: 500px;
+    margin: 10px 5px;
+    text-align: center;
+    color: rgb(182, 178, 178);
+    font-size: 18px;
+}
+
+.createbtn  {
+    height: 30px;
+    margin: 10px;
+    border-radius: 3px;
+    background-color: rgb(230, 227, 227);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.createbtn:hover    {
+    background-color: rgb(182, 175, 175);
+}
+
+.divider-bottom {
+    height: 2px;
+    width: 100%;
+    background-color: rgb(196, 193, 193);
+}
+
+.footlinks  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.copyright  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
